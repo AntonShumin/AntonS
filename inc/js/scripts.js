@@ -649,4 +649,29 @@ $(window).on("load",function() {
 });
 */
 
+/* SWIPER */
+
+$(document).ready(function () {
+
+
+	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		effect: 'coverflow',
+		grabCursor: true,
+		centeredSlides: true,
+		slidesPerView: 3,
+		coverflow: {
+			rotate: 50,
+			stretch: 0,
+			depth: 100,
+			modifier: 1,
+			slideShadows : true
+		},
+		autoplay: 2000,
+		loop: true
+	});
+
+
+});
+
 

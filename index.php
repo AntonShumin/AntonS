@@ -235,6 +235,195 @@
 
 
 
+    <!-- Portfolio -->
+    <section id="portfolio" class="content">
+
+        <!-- Container -->
+        <div class="container portfolio-title">
+
+            <!-- Section Title -->
+            <div class="section-title">
+                <h1>Portfolio</h1>
+                <span class="border"></span>
+                <p>Projecten waar ik aan gewerkt heb</p>
+            </div>
+            <!--/Section Title -->
+
+
+        </div>
+        <!-- Container -->
+
+
+
+
+
+        <div class="portfolio-top"></div>
+
+
+        <!-- Portfolio Plus Filters -->
+        <div class="portfolio">
+
+
+
+
+            <!-- Portfolio Filters -->
+            <div  id="filters" class="sixteen columns">
+
+                <ul class="clearfix">
+                    <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
+                    <li><a href="#" data-filter=".branding"><h5>Branding</h5></a></li>
+                    <li><a href="#" data-filter=".design"><h5>Design</h5></a></li>
+                    <li><a href="#" data-filter=".photography"><h5>Photography</h5></a></li>
+                    <li><a href="#" data-filter=".videography"><h5>Videography</h5></a></li>
+                    <li><a href="#" data-filter=".web"><h5>Web</h5></a></li>
+                </ul>
+            </div>
+            <!--/Portfolio Filters -->
+
+
+
+            <!-- Portfolio Wrap -->
+            <div id="portfolio-wrap">
+
+
+
+
+
+                <!-- Portfolio Item With PrettyPhoto  -->
+                <div class="portfolio-item one-four   branding web">
+
+                    <div class="portfolio-image">
+                        <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
+                    </div>
+
+                    <a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="images/portfolio/portfolio2.jpg">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <div class="zoom-icon"></div>
+                                <h4 class="project-name">Starbucks Coffee</h4>
+                                <p class="project-categories">Image Popup</p>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <!--/Portfolio Item With PrettyPhoto  -->
+
+
+
+
+
+
+                <!-- Portfolio Item Video Expander  -->
+                <div class="portfolio-item one-four  design  photography   web">
+
+                    <div class="portfolio-image">
+                        <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
+                    </div>
+
+                    <div class="project-overlay">
+                        <div class="open-project-link">
+                            <a class="open-project" href="project-video-expander.html" title="Open Project"></a>
+                        </div>
+                        <div class="project-info">
+                            <div class="zoom-icon"></div>
+                            <h4 class="project-name">Chambre Des Notaires</h4>
+                            <p class="project-categories">Video Expander</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/Portfolio Item Video Expander  -->
+
+
+
+
+
+                <!-- Portfolio Item Normal Expander -->
+                <div class="portfolio-item one-four  design    videography ">
+
+                    <div class="portfolio-image">
+                        <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
+                    </div>
+
+                    <div class="project-overlay">
+                        <div class="open-project-link">
+                            <a class="open-project" href="project-normal-expander-1.html" title="Open Project"></a>
+                        </div>
+                        <div class="project-info">
+                            <div class="zoom-icon"></div>
+                            <h4 class="project-name">Mors Identity</h4>
+                            <p class="project-categories">Normal Expander</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/Portfolio Item Normal Expander -->
+
+
+
+
+
+                <!-- Portfolio Item FullScreen Expander -->
+                <div class="portfolio-item one-four  photography  branding web">
+
+                    <div class="portfolio-image">
+                        <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
+                    </div>
+
+                    <div class="project-overlay">
+                        <div class="open-project-link">
+                            <a class="open-project" href="project-fullscreen-expander-1.html" title="Open Project"></a>
+                        </div>
+                        <div class="project-info">
+                            <div class="zoom-icon"></div>
+                            <h4 class="project-name">Beauty Collection</h4>
+                            <p class="project-categories">Fullscreen Expander</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Portfolio Item FullScreen Expander -->
+
+
+
+
+
+            </div>
+            <!--/Portfolio Wrap -->
+
+        </div>
+        <!--/Portfolio Plus Filters -->
+
+
+
+
+
+        <div class="portfolio-bottom"></div>
+
+
+
+
+
+        <!-- Project Page Holder-->
+        <div id="project-page-holder">
+
+            <div class="clear"></div>
+            <div id="project-page-data"></div>
+
+        </div>
+        <!--/Project Page Holder-->
+
+
+
+
+
+    </section>
+    <!--/Portfolio -->
+
+
+
+
 
 
     <!-- Footer -->

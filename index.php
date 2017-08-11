@@ -271,11 +271,9 @@
 
                 <ul class="clearfix">
                     <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
-                    <li><a href="#" data-filter=".branding"><h5>Branding</h5></a></li>
-                    <li><a href="#" data-filter=".design"><h5>Design</h5></a></li>
-                    <li><a href="#" data-filter=".photography"><h5>Photography</h5></a></li>
-                    <li><a href="#" data-filter=".videography"><h5>Videography</h5></a></li>
-                    <li><a href="#" data-filter=".web"><h5>Web</h5></a></li>
+                    <li><a href="#" data-filter=".php"><h5>php</h5></a></li>
+                    <li><a href="#" data-filter=".unity"><h5>unity</h5></a></li>
+                    <li><a href="#" data-filter=".commerce"><h5>e-commerce</h5></a></li>
                 </ul>
             </div>
             <!--/Portfolio Filters -->
@@ -290,7 +288,7 @@
 
 
                 <!-- Portfolio Item With PrettyPhoto  -->
-                <div class="portfolio-item one-four   branding web">
+                <div class="portfolio-item one-four php">
 
                     <div class="portfolio-image">
                         <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
@@ -300,7 +298,7 @@
                         <div class="project-overlay">
                             <div class="project-info">
                                 <div class="zoom-icon"></div>
-                                <h4 class="project-name">Starbucks Coffee</h4>
+                                <h4 class="project-name">Salino</h4>
                                 <p class="project-categories">Image Popup</p>
                             </div>
                         </div>
@@ -315,7 +313,7 @@
 
 
                 <!-- Portfolio Item Video Expander  -->
-                <div class="portfolio-item one-four  design  photography   web">
+                <div class="portfolio-item one-four  php commerce">
 
                     <div class="portfolio-image">
                         <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
@@ -327,7 +325,7 @@
                         </div>
                         <div class="project-info">
                             <div class="zoom-icon"></div>
-                            <h4 class="project-name">Chambre Des Notaires</h4>
+                            <h4 class="project-name">Kivalo</h4>
                             <p class="project-categories">Video Expander</p>
                         </div>
                     </div>
@@ -340,7 +338,7 @@
 
 
                 <!-- Portfolio Item Normal Expander -->
-                <div class="portfolio-item one-four  design    videography ">
+                <div class="portfolio-item one-four  unity ">
 
                     <div class="portfolio-image">
                         <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
@@ -352,7 +350,7 @@
                         </div>
                         <div class="project-info">
                             <div class="zoom-icon"></div>
-                            <h4 class="project-name">Mors Identity</h4>
+                            <h4 class="project-name">Mountain Lake Hockey</h4>
                             <p class="project-categories">Normal Expander</p>
                         </div>
                     </div>
@@ -365,7 +363,7 @@
 
 
                 <!-- Portfolio Item FullScreen Expander -->
-                <div class="portfolio-item one-four  photography  branding web">
+                <div class="portfolio-item one-four  php">
 
                     <div class="portfolio-image">
                         <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
@@ -377,7 +375,7 @@
                         </div>
                         <div class="project-info">
                             <div class="zoom-icon"></div>
-                            <h4 class="project-name">Beauty Collection</h4>
+                            <h4 class="project-name">Relaxy</h4>
                             <p class="project-categories">Fullscreen Expander</p>
                         </div>
                     </div>
@@ -394,9 +392,6 @@
 
         </div>
         <!--/Portfolio Plus Filters -->
-
-
-
 
 
         <div class="portfolio-bottom"></div>
@@ -420,6 +415,62 @@
 
     </section>
     <!--/Portfolio -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+
+        <!-- Container -->
+        <div class="container small-width">
+
+            <!-- Section Title -->
+            <div class="section-title">
+                <h1>Contact</h1>
+                <span class="border"></span>
+
+                <div class="company-phone"><a>0476 50 31 47</a></div>
+
+                <i class="fa fa-envelope-o fa-inverse fa-2x"></i>
+
+                <h5 class="company-email">AntonShuminBe@gmail.com</h5>
+
+                <i class="fa fa-map-marker fa-inverse fa-2x"></i>
+
+                <h5 class="company-address">Dageraadstraat 56 Mechelen</h5>
+            </div>
+            <!--/Section Title -->
+
+
+
+
+        </div>
+        <!--/Container -->
+
+
+
+    </section>
+    <!--/Contact Section -->
+
+
+    <!-- Contact Parralax -->
+    <div id="contact-parallax" class="parallax" style="background-image: url('inc/images/pexels-photo-257935.jpeg');" data-stellar-background-ratio="0.9" data-stellar-vertical-offset="20">
+
+        <div class="parallax-overlay">
+            <div class="container">
+
+                <div class="contact-details">
+
+                    <div class="phone-icon"><img src="images/phone_white_big.png" alt="" /></div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--/Contact Parralax -->
+
 
 
 

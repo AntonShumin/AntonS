@@ -97,7 +97,7 @@
 
 
     <!-- We Are Newave -->
-    <section id="we-are-newave">
+    <section id="introductie">
 
         <!-- Container -->
         <div class="container">
@@ -205,29 +205,31 @@
 
             </div>
 
-            <!-- Swiper -->
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    <div class="swiper-slide">Slide 4</div>
-                    <div class="swiper-slide">Slide 5</div>
-                    <div class="swiper-slide">Slide 6</div>
-                    <div class="swiper-slide">Slide 7</div>
-                    <div class="swiper-slide">Slide 8</div>
-                    <div class="swiper-slide">Slide 9</div>
-                    <div class="swiper-slide">Slide 10</div>
-                </div>
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
+
 
 
 
 
         </div>
         <!--/Container -->
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">Slide 10</div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
 
     </section>
     <!--/Services-->
@@ -291,15 +293,15 @@
                 <div class="portfolio-item one-four php">
 
                     <div class="portfolio-image">
-                        <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
+                        <img src="inc/images/salino.jpg" alt="Portfolio 1"/>
                     </div>
 
-                    <a title="Starbucks Coffee" rel="prettyPhoto[galname]" href="images/portfolio/portfolio2.jpg">
+                    <a title="Salino"  href="http://www.salino.be" target="_blank">
                         <div class="project-overlay">
                             <div class="project-info">
                                 <div class="zoom-icon"></div>
                                 <h4 class="project-name">Salino</h4>
-                                <p class="project-categories">Image Popup</p>
+                                <p class="project-categories">Zoekmachine</p>
                             </div>
                         </div>
                     </a>
@@ -316,19 +318,19 @@
                 <div class="portfolio-item one-four  php commerce">
 
                     <div class="portfolio-image">
-                        <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
+                        <img src="inc/images/kivalo.jpg" alt="Portfolio 1"/>
                     </div>
 
-                    <div class="project-overlay">
-                        <div class="open-project-link">
-                            <a class="open-project" href="project-video-expander.html" title="Open Project"></a>
+
+                    <a title="Salino"  href="https://kivalo.kivalo.be/bestellen/" target="_blank">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4 class="project-name">Kivalo</h4>
+                                <p class="project-categories">Online voucher verkoop</p>
+                            </div>
                         </div>
-                        <div class="project-info">
-                            <div class="zoom-icon"></div>
-                            <h4 class="project-name">Kivalo</h4>
-                            <p class="project-categories">Video Expander</p>
-                        </div>
-                    </div>
+                    </a>
+
 
                 </div>
                 <!--/Portfolio Item Video Expander  -->
@@ -341,19 +343,18 @@
                 <div class="portfolio-item one-four  unity ">
 
                     <div class="portfolio-image">
-                        <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
+                        <img src="inc/images/hockey.jpg" alt="Portfolio 1"/>
                     </div>
 
-                    <div class="project-overlay">
-                        <div class="open-project-link">
-                            <a class="open-project" href="project-normal-expander-1.html" title="Open Project"></a>
+                    <a title="Salino"  href="#" target="_blank">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4 class="project-name">Mountain Lake Hockey</h4>
+                                <p class="project-categories">Steam VR videospel</p>
+                            </div>
                         </div>
-                        <div class="project-info">
-                            <div class="zoom-icon"></div>
-                            <h4 class="project-name">Mountain Lake Hockey</h4>
-                            <p class="project-categories">Normal Expander</p>
-                        </div>
-                    </div>
+                    </a>
+
 
                 </div>
                 <!--/Portfolio Item Normal Expander -->
@@ -366,19 +367,18 @@
                 <div class="portfolio-item one-four  php">
 
                     <div class="portfolio-image">
-                        <img src="inc/images/home_background.jpg" alt="Portfolio 1"/>
+                        <img src="inc/images/relaxy.jpg" alt="Portfolio 1"/>
                     </div>
 
-                    <div class="project-overlay">
-                        <div class="open-project-link">
-                            <a class="open-project" href="project-fullscreen-expander-1.html" title="Open Project"></a>
+                    <a title="Salino"  href="http://www.relaxy.be" target="_blank">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h4 class="project-name">Relaxy</h4>
+                                <p class="project-categories">Bedrijfspagina's</p>
+                            </div>
                         </div>
-                        <div class="project-info">
-                            <div class="zoom-icon"></div>
-                            <h4 class="project-name">Relaxy</h4>
-                            <p class="project-categories">Fullscreen Expander</p>
-                        </div>
-                    </div>
+                    </a>
+
 
                 </div>
                 <!-- Portfolio Item FullScreen Expander -->

@@ -51,6 +51,10 @@
 		margin:0 auto;
 		padding:100px 20px;
 	}
+
+	#services .container {
+		height: 600px;
+	}
 	
 	.small-width {
 		width:980px;
@@ -154,7 +158,7 @@
 	
 	.section-title {
 		text-align:center;
-		width:700px;
+		width:1000px;
 		margin:0 auto;
 		margin-bottom:60px;
 	}
@@ -3249,6 +3253,11 @@
 	
 	.container {
 		width:600px;
+
+	}
+
+	#introductie .container {
+		width: 90%;
 	}
 	
 	.text-slide-vertical {
@@ -3799,10 +3808,13 @@
 
 
 	.swiper-container {
+		max-width: 90%;
 		width: 100%;
 		padding-top: 50px;
 		padding-bottom: 50px;
 		height: 300px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.swiper-slide {
 		background-position: center;

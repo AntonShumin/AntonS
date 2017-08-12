@@ -651,10 +651,12 @@ $(window).on("load",function() {
 
 /* SWIPER */
 
+var swiper;
+
 $(document).ready(function () {
 
 
-	var swiper = new Swiper('.swiper-container', {
+	swiper = new Swiper('.swiper-container', {
 		pagination: '.swiper-pagination',
 		effect: 'coverflow',
 		grabCursor: true,
@@ -673,5 +675,10 @@ $(document).ready(function () {
 
 
 });
+
+$(window).resize(function () {
+
+	
+})
 
 

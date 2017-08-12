@@ -3806,15 +3806,10 @@
 	
 }
 
-
 	.swiper-container {
-		max-width: 90%;
 		width: 100%;
 		padding-top: 50px;
 		padding-bottom: 50px;
-		height: 300px;
-		margin-left: auto;
-		margin-right: auto;
 	}
 	.swiper-slide {
 		background-position: center;
@@ -3822,6 +3817,7 @@
 		width: 300px;
 		height: 300px;
 	}
+
 
 
 

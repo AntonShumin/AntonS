@@ -111,22 +111,24 @@
 
 
                 <!-- Swiper -->
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/1)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/2)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/4)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/5)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/6)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/7)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/8)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/9)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/10)"></div>
+                <div class="swiper-pictures">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(inc/images/about/pic_about_1.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(inc/images/about/pic_about_2.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(inc/images/about/pic_about_3.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(inc/images/about/pic_about_4.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(inc/images/about/pic_about_5.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(inc/images/about/pic_about_6.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(inc/images/about/pic_about_7.jpg)"></div>
+                            <div class="swiper-slide" style="background-image:url(inc/images/about/pic_about_8.jpg)"></div>
+
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
                     </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination"></div>
                 </div>
+
             </div>
 
 

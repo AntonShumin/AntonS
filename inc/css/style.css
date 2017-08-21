@@ -3810,6 +3810,8 @@
 		width: 100%;
 		padding-top: 50px;
 		padding-bottom: 50px;
+		height: 300px;
+		max-width: 900px;
 	}
 	.swiper-slide {
 		background-position: center;
@@ -3817,6 +3819,8 @@
 		width: 300px;
 		height: 300px;
 	}
+
+
 
 
 

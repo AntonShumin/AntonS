@@ -218,16 +218,15 @@
         <!-- Swiper -->
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
-                <div class="swiper-slide">Slide 10</div>
+                <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_5.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_7.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_8.jpg" alt=""></div>
+
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
@@ -429,7 +428,7 @@
                 <h1>Contact</h1>
                 <span class="border"></span>
 
-                <div class="company-phone"><a>0476 50 31 47</a></div>
+                <div class="company-phone"><a>0476 503147</a></div>
 
                 <i class="fa fa-envelope-o fa-inverse fa-2x"></i>
 

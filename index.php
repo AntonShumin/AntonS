@@ -218,6 +218,15 @@
         <!-- Swiper -->
         <div class="swiper-container">
             <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(inc/images/skill%20icons/skill_1.jpg")></div>
+                <div class="swiper-slide" style="background-image:url(inc/images/skill%20icons/skill_2.jpg")></div>
+                <div class="swiper-slide" style="background-image:url(inc/images/skill%20icons/skill_3.jpg")></div>
+                <div class="swiper-slide" style="background-image:url(inc/images/skill%20icons/skill_4.jpg")></div>
+                <div class="swiper-slide" style="background-image:url(inc/images/skill%20icons/skill_5.jpg")></div>
+                <div class="swiper-slide" style="background-image:url(inc/images/skill%20icons/skill_6.jpg")></div>
+                <div class="swiper-slide" style="background-image:url(inc/images/skill%20icons/skill_7.jpg")></div>
+                <div class="swiper-slide" style="background-image:url(inc/images/skill%20icons/skill_8.jpg")></div>
+                <!--
                 <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_1.jpg" alt=""></div>
                 <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_2.jpg" alt=""></div>
                 <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_3.jpg" alt=""></div>
@@ -226,6 +235,7 @@
                 <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_6.jpg" alt=""></div>
                 <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_7.jpg" alt=""></div>
                 <div class="swiper-slide"><img src="inc/images/skill%20icons/skill_8.jpg" alt=""></div>
+                -->
 
             </div>
             <!-- Add Pagination -->

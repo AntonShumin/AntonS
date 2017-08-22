@@ -160,7 +160,7 @@
 		text-align:center;
 		width:1000px;
 		margin:0 auto;
-		margin-bottom:60px;
+		margin-bottom: 0px;
 	}
 	
 	.border {
@@ -3816,8 +3816,30 @@
 	.swiper-slide {
 		background-position: center;
 		background-size: cover;
-		width: 300px;
-		height: 300px;
+	}
+
+	@media only screen and (max-width: 866px) {
+
+		.swiper-container {
+
+			height: 200px;
+		}
+
+
+		.container {
+			width: 95% !important;
+			padding-bottom: 15px;
+			padding-top: 30px;
+		}
+
+		h1 {
+			font-size: 20px;
+		}
+
+		.parallax-overlay {
+			display: none;
+		}
+
 	}
 
 

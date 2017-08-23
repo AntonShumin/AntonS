@@ -39,7 +39,7 @@
         <ul class="fullwidth-slider">
 
 
-            <li class="slide" style="background-image: url(inc/images/home_background.jpg)" data-anchor-target="section" data-70-top="background-position: center 400px;" data-start="background-position: center 0px;">
+            <li class="slide" style="background-image: url(inc/images/backgrounds/b1.jpg)" data-anchor-target="section" data-70-top="background-position: center 400px;" data-start="background-position: center 0px;">
                 <!-- Caption -->
                 <div class="caption">
                     <div class="caption-inside" data-anchor-target="section"  data-start="top: 0px; opacity: 1;" data-200-top="top: 270px; opacity: 0;">
@@ -99,8 +99,10 @@
             <div class="section-title">
                 <h1>Anton Shumin</h1>
                 <span class="border"></span>
-                <p>Hallo, mijn naam is Anton. Ik ben een <b>full stack</b> web developer, <b>VR</b> ontwikkelaar en een tech enthousiast.</p>
-                <p>In mijn werk streef ik voortdurent naar een balans tussen het <b>gebruiksgemak</b> en <b>business</b>. Ik ben een <b>teamspeler</b> die eveneens zelfstandig zijn plan kan trekken. <b>Out of the box</b> denken, <b>sport</b> (lichaam en geest). </p>
+                <div class="introductie_text">
+                    <p>Hallo, mijn naam is Anton. Ik ben een <b>full stack</b> web developer, <b>VR</b> ontwikkelaar en een tech enthousiast. In mijn werk streef ik voortdurend naar een balans tussen <b>gebruiksgemak</b> en <b>business</b>. Ik ben een <b>teamspeler</b> zowel op als naast het veld maar kan eveneens mijn plan trekken. Meer weten? Neem gerust een kijkje op mijn website en stuur een mailtje. </p>
+
+                </div>
 
 
                 <!-- Swiper -->
@@ -158,7 +160,7 @@
                 <div class="service-item text-right element_from_left">
                     <span class="fa-stack fa-3x right">
                       <i class="fa fa-circle fa-2x fa-stack-2x"></i>
-                      <i class="fa fa-cog fa-stack-1x fa-inverse service-icon"></i>
+                      <i class="fa fa-database fa-stack-1x fa-inverse service-icon"></i>
                     </span>
                     <h5>PHP development</h5>
                     <p>Uitgebreide kennis en professionele ervaring binnen de wereld van PHP. Kan vlot overweg met de sequentiele of object georienteerde code.</p>
@@ -167,7 +169,7 @@
                 <div class="service-item text-right element_from_left">
                     <span class="fa-stack fa-3x right">
                       <i class="fa fa-circle fa-2x fa-stack-2x"></i>
-                      <i class="fa fa-cog fa-stack-1x fa-inverse service-icon"></i>
+                      <i class="fa fa-id-badge fa-stack-1x fa-inverse service-icon"></i>
                     </span>
                     <h5>Front End</h5>
                     <p>Kan vlot overweg met css en javascript. Werkervaring met bootstrap, jQuery, google API's en meer</p>
@@ -182,7 +184,7 @@
                 <div class="service-item text-left element_from_right">
                     <span class="fa-stack fa-3x left">
                       <i class="fa fa-circle fa-2x fa-stack-2x"></i>
-                      <i class="fa fa-desktop fa-stack-1x fa-inverse service-icon"></i>
+                      <i class="fa fa-windows fa-stack-1x fa-inverse service-icon"></i>
                     </span>
                     <h5>C# Ontwikkeling</h5>
                     <p>Ervaring met de ASP.NET Framework en een lange geschiedenis van persoonlijke projecten in de Unity 3D Engine.</p>
@@ -191,7 +193,7 @@
                 <div class="service-item text-left element_from_right">
                     <span class="fa-stack fa-3x left">
                       <i class="fa fa-circle fa-2x fa-stack-2x"></i>
-                      <i class="fa fa-apple fa-stack-1x fa-inverse service-icon"></i>
+                      <i class="fa a fa-handshake-o fa-stack-1x fa-inverse service-icon"></i>
                     </span>
                     <h5>UX Design</h5>
                     <p>Mee met de trends van gebruiksvriendelijke ontwerpen en user testing</p>
@@ -350,7 +352,7 @@
                         <img src="inc/images/hockey.jpg" alt="Portfolio 1"/>
                     </div>
 
-                    <a title="Salino"  href="#" target="_blank">
+                    <a title="Salino"  target="_blank">
                         <div class="project-overlay">
                             <div class="project-info">
                                 <h4 class="project-name">Mountain Lake Hockey</h4>
@@ -431,15 +433,15 @@
                 <h1>Contact</h1>
                 <span class="border"></span>
 
-                <div class="company-phone"><a><h2>0476 50 31 47</h2></a></div>
+                <div class="company-phone">
 
-                <i class="fa fa-envelope-o fa-inverse fa-2x"></i>
+                    <a><h2><i class="fa fa-phone " aria-hidden="true"></i> 0476 50 31 47</h2></a>
+                </div>
 
-                <h5 class="company-email">AntonShuminBe@gmail.com</h5>
+                <h5 class="company-email"><i class="fa fa-envelope-o" aria-hidden="true"> </i> AntonShuminBe@gmail.com</h5>
 
-                <i class="fa fa-map-marker fa-inverse fa-2x"></i>
 
-                <h5 class="company-address">Dageraadstraat 56 Mechelen</h5>
+                <h5 class="company-address"><i class="fa fa-map-marker" aria-hidden="true"></i> 2800 Mechelen</h5>
             </div>
             <!--/Section Title -->
 
@@ -463,7 +465,6 @@
 
                 <div class="contact-details">
 
-                    <div class="phone-icon"><img src="images/phone_white_big.png" alt="" /></div>
 
 
 
@@ -489,9 +490,9 @@
             <a id="back-top"><div id="menu_top"><div id="menu_top_inside"></div></div></a>
 
             <ul class="socials-icons">
-                <li><a href="#"><img src="inc/images/facebook.png" alt="" /></a></li>
-                <li><a href="#"><img src="inc/images/facebook.png" alt="" /></a></li>
-                <li><a href="#"><img src="inc/images/facebook.png" alt="" /></a></li>
+                <li><a href="https://www.facebook.com/ShuminAnton" target="_blank"><img src="inc/images/SMI/facebook-Icon.png" alt="" /></a></li>
+                <li><a href="https://www.linkedin.com/in/anton-shumin-58447810/" target="_blank"><img src="inc/images/SMI/Linkedin.png" alt="" /></a></li>
+                <li><a href="https://github.com/AntonShumin" target="_blank"><img src="inc/images/SMI/Github-Icon.png" alt="" /></a></li>
             </ul>
 
             <p class="copyright">2017 &copy; Anton Shumin. All rights reserved.</p>
@@ -523,7 +524,7 @@
     <script src="inc/js/appear.js" type="text/javascript"></script>
     <script src="inc/js/modernizr.js" type="text/javascript"></script>
     <script src="inc/js/jquery.prettyPhoto.js" type="text/javascript"></script>
-    <script src="inc/js/isotope.js" type="text/javascript"></script>
+    <script src="inc/js/isotope.pkgd.min.js" type="text/javascript"></script>
     <script src="inc/js/jquery.bxslider.min.js" type="text/javascript"></script>
     <script src="inc/js/jquery.cycle.all.js" type="text/javascript"></script>
     <script src="inc/js/jquery.maximage.js" type="text/javascript"></script>

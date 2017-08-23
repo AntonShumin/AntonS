@@ -434,7 +434,7 @@ $(window).on("load", function (){
 		
 		function setProjects() { 
 			setColumns();
-			container.isotope('reLayout');
+			container.isotope('layout');
 		}		
 		
 		container.imagesLoaded(function () { 

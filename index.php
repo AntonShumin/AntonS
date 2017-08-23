@@ -32,6 +32,7 @@
 <!-- scrollspy tutorial https://www.w3schools.com/bootstrap/bootstrap_scrollspy.asp -->
 <body data-spy="scroll" data-target=".navbar" data-offset="75">
 
+
     <!-- Home Section -->
     <div id="home" class="parallax-slider">
 
@@ -75,19 +76,11 @@
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                         <li class="menu-1"><a class="colapse-menu1" href="#home">Home</a></li>
-                        <li class="menu-2"><a class="colapse-menu1" href="#we-are-newave">About</a></li>
-                        <li class="menu-3"><a class="colapse-menu1" href="#services">Services</a></li>
-                        <li class="menu-4"><a class="colapse-menu1" href="#clients">Clients</a></li>
-                        <li class="menu-5"><a class="colapse-menu1" href="#portfolio">Portfolio</a></li>
-                        <li class="menu-6"><a class="colapse-menu1" href="#contact-parallax">Contact</a></li>
-                        <li class="dropdown menu-7"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="external" href="blog.html">Blog standard</a></li>
-                                <li><a class="external" href="blog-masonry.html">Blog Masonry</a></li>
-                                <li><a class="external" href="blog-post.html">Blog post page </a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-8"><a class="external" href="shortcodes.html">Shortcodes</a></li>
+                        <li class="menu-2"><a class="colapse-menu1" href="#introductie">Over mij</a></li>
+                        <li class="menu-3"><a class="colapse-menu1" href="#services">Vaardigheden</a></li>
+                        <li class="menu-4"><a class="colapse-menu1" href="#portfolio">Portfolio</a></li>
+                        <li class="menu-5"><a class="colapse-menu1" href="#contact">Contact</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -172,9 +165,9 @@
                 </div>
 
                 <div class="service-item text-right element_from_left">
-                    <span class="fa-stack fa-2x right">
+                    <span class="fa-stack fa-3x right">
                       <i class="fa fa-circle fa-2x fa-stack-2x"></i>
-                      <i class="fa fa-user fa-stack-1x fa-inverse service-icon"></i>
+                      <i class="fa fa-cog fa-stack-1x fa-inverse service-icon"></i>
                     </span>
                     <h5>Front End</h5>
                     <p>Kan vlot overweg met css en javascript. Werkervaring met bootstrap, jQuery, google API's en meer</p>
@@ -438,7 +431,7 @@
                 <h1>Contact</h1>
                 <span class="border"></span>
 
-                <div class="company-phone"><a>0476 503147</a></div>
+                <div class="company-phone"><a><h2>0476 50 31 47</h2></a></div>
 
                 <i class="fa fa-envelope-o fa-inverse fa-2x"></i>
 
@@ -519,16 +512,18 @@
     -->
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
     <script src="inc/js/jquery.sticky.js" type="text/javascript"></script>
     <script src="inc/js/jquery.easing-1.3.pack.js" type="text/javascript"></script>
-    <script src="https://cdn.jsdelivr.net/tether/1.4.0/tether.min.js"></script>
+
+
     <script src="inc/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="inc/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
     <script src="inc/js/appear.js" type="text/javascript"></script>
     <script src="inc/js/modernizr.js" type="text/javascript"></script>
     <script src="inc/js/jquery.prettyPhoto.js" type="text/javascript"></script>
-    <script src="inc/js/isotope.pkgd.min.js" type="text/javascript"></script>
+    <script src="inc/js/isotope.js" type="text/javascript"></script>
     <script src="inc/js/jquery.bxslider.min.js" type="text/javascript"></script>
     <script src="inc/js/jquery.cycle.all.js" type="text/javascript"></script>
     <script src="inc/js/jquery.maximage.js" type="text/javascript"></script>

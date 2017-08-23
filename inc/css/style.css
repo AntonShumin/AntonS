@@ -1,4 +1,4 @@
-	@import url("navigation-style-1.css");
+	@import url("navigation-style-2.css");
 	@import url("color-gray.css");
 	
 	html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,a,img,small,sub,b,dl,dd,dt,ul,li,label,article,details,footer,header,menu,nav,input,textarea,select{	
@@ -52,9 +52,6 @@
 		padding:100px 20px;
 	}
 
-	#services .container {
-		height: 600px;
-	}
 	
 	.small-width {
 		width:980px;
@@ -159,6 +156,7 @@
 	.section-title {
 		text-align:center;
 		width:1000px;
+		max-width: 95%;
 		margin:0 auto;
 		margin-bottom: 0px;
 	}
@@ -217,7 +215,7 @@
 	}
 	
 	#loader {
-		background:url(images/newave-loading.gif) center center no-repeat;
+		/*background:url(images/newave-loading.gif) center center no-repeat;*/
 		height: 50px;
 		width: 50px;
 		left: 50%;
@@ -3810,27 +3808,39 @@
 		width: 100%;
 		padding-top: 50px;
 		padding-bottom: 50px;
-		height: 300px;
 		max-width: 900px;
+
+		height: 200px;
 	}
 	.swiper-slide {
 		background-position: center;
 		background-size: cover;
 	}
 
+	#services .container {
+		padding-bottom: 5px;
+		padding-top: 40px;
+	}
+
+	.bx-wrapper{
+		border: 0 !important;
+	}
+
 	@media only screen and (max-width: 866px) {
 
 		.swiper-container {
 
-			height: 200px;
+			height: 100px;
 		}
 
-
+		/*
 		.container {
 			width: 95% !important;
 			padding-bottom: 15px;
 			padding-top: 30px;
 		}
+		*/
+
 
 		h1 {
 			font-size: 20px;

@@ -1,3 +1,8 @@
+skyfresh_vlucht:
+    resource: "@SkyfreshVluchtBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation

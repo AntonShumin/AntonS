@@ -8,6 +8,7 @@
                 position: absolute;
             }
             div{
+                transition: 100ms;
                 border: 2px solid white;
                 pointer-events: none;
             }
@@ -79,7 +80,6 @@
                     div.style.background = get_color(e);
                     div.style.top = e.pageY - canvasOffset.top - block_size/2 +"px";
                     div.style.left = e.pageX - canvasOffset.left - block_size/2+"px";
-                    div.style.transition = "100ms";
 
                     document.body.appendChild(div);
                     if(last_box != null) minimize_last_box();

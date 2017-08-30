@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hover blocks</title>
+        <style>
+
+            div,canvas {
+                position: absolute;
+            }
+            div{
+                border: 2px solid white;
+                pointer-events: none;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="myCanvas"></canvas>
+    </body>
+</html>
+
+<script>
+
+    //set vars
+    var block_size = window.innerWidth/ 30;
+    var c=document.getElementById("myCanvas");
+    c.width = window.innerWidth -20; //50 fix overflow
+    c.height = window.innerHeight - 20;
+    var ctx = c.getContext("2d");
+    var canvasOffset = c.getBoundingClientRect();
+    var pressed = false;
+    var last_position;
+    var last_box;
+
+    //build grid
+    for (x=0; x < window.innerWidth / block_size ; x++ ) {
+
+        for (y=0; y<  window.innerHeight / block_size ; y++){
+
+            ctx.fillStyle=getRandomColor();
+            var b = ctx.fillRect(x*block_size,y*block_size,block_size,block_size);
+
+        }
+    }
+
+    //mouse down
+    c.addEventListener("mousedown",function (e) {
+
+        pressed = true;
+        animated_square(e);
+
+    })
+
+    //mouse up
+    document.addEventListener("mouseup", function (e) {
+
+        pressed = false;
+        last_position = null;
+        minimize_last_box();
+
+    });
+
+    //mouse move
+    c.addEventListener("mousemove", function (e) {
+
+        animated_square(e);
+
+    });
+
+    function animated_square(e) {
+
+            if ( pressed  ) {
+
+                if ( !last_position || Math.abs( e.pageX - last_position.pageX ) > block_size || Math.abs( e.pageY - last_position.pageY ) > block_size  ) {
+
+
+                    last_position = e;
+                    var div = document.createElement("div");
+                    div.style.width = div.style.height = block_size + "px";
+                    div.style.background = get_color(e);
+                    div.style.top = e.pageY - canvasOffset.top - block_size/2 +"px";
+                    div.style.left = e.pageX - canvasOffset.left - block_size/2+"px";
+                    div.style.transition = "100ms";
+
+                    document.body.appendChild(div);
+                    if(last_box != null) minimize_last_box();
+                    last_box = div;
+
+
+                    setTimeout(function () { //triggers transition animation
+                        div.style.width = div.style.height = block_size*2 + "px";
+                        div.style.top = e.pageY - canvasOffset.top - block_size +"px";
+                        div.style.left = e.pageX - canvasOffset.left - block_size+"px";
+
+                    },0);
+                }
+
+
+            }
+
+    }
+
+    function get_color(e){
+
+        var canvasX = e.pageX - canvasOffset.left;
+        var canvasY = e.pageY - canvasOffset.top;
+        var color = ctx.getImageData(canvasX, canvasY, 1, 1).data;
+        var rgb_color = "rgba("+color[0]+", "+color[1]+", "+color[2]+", "+color[3]+")";
+        return rgb_color;
+
+    }
+
+    function getRandomColor() {
+
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+
+    }
+
+    function minimize_last_box(){
+
+        if(last_box) {
+            last_box.style.width = last_box.style.height = "0px";
+            last_box.style.transition = "500ms";
+            last_box.addEventListener('transitionend', function(){this.remove()});
+            last_box.addEventListener('webkitTransitionEnd', function(){this.remove()});
+        }
+
+    }
+
+</script>

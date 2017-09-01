@@ -73,7 +73,6 @@
 
                 if ( !last_position || Math.abs( e.pageX - last_position.pageX ) > block_size || Math.abs( e.pageY - last_position.pageY ) > block_size  ) {
 
-
                     last_position = e;
                     var div = document.createElement("div");
                     div.style.width = div.style.height = block_size + "px";
@@ -85,7 +84,6 @@
                     if(last_box != null) minimize_last_box();
                     last_box = div;
 
-
                     setTimeout(function () { //triggers transition animation
                         div.style.width = div.style.height = block_size*2 + "px";
                         div.style.top = e.pageY - canvasOffset.top - block_size +"px";
@@ -93,7 +91,6 @@
 
                     },0);
                 }
-
 
             }
 
@@ -123,10 +120,13 @@
     function minimize_last_box(){
 
         if(last_box) {
-            last_box.style.width = last_box.style.height = "0px";
             last_box.style.transition = "500ms";
+            last_box.style.width = last_box.style.height = "0px";
+            last_box.style.top = parseInt(last_box.style.top) + canvasOffset.top + block_size +"px";
+            last_box.style.left = parseInt(last_box.style.left) + canvasOffset.left + block_size+"px";
             last_box.addEventListener('transitionend', function(){this.remove()});
             last_box.addEventListener('webkitTransitionEnd', function(){this.remove()});
+            last_box = null;
         }
 
     }

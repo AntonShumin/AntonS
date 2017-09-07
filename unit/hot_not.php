@@ -23,16 +23,31 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <img src="content/maxim.jpg" alt="pic1">
+
+                <a href="hot_not.php">
+                    <img src="content/maxim.jpg" class="pic" alt="pic1">
+                </a>
+
+
             </div>
             <div class="col-md-6">
-                <img src="content/seeger.jpg" alt="pic1">
+                <a href="hot_not.php">
+                    <img src="content/seeger.jpg" class="pic" alt="pic1">
+                </a>
+
             </div>
         </div>
         <div class="row logo">
-            <div class="col-md-12">
-                <img src="content/logo.png" alt="pic2">
-            </div>
+
+            <a href="#"><h6>LEADERBOARD</h6>
+
+                <div class="col-md-12">
+                    <img src="content/logo.png" alt="pic2">
+                </div>
+
+            </a>
+
+
 
         </div>
     </div>

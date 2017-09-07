@@ -2,6 +2,8 @@
 body {
     background: #d0d8e0;
     min-width: 370px;
+
+
 }
 
 .container {
@@ -20,6 +22,7 @@ body {
 
 .col-md-6 {
     background-color: #f7f7f7;
+    z-index: 0;
 }
 
 
@@ -28,12 +31,44 @@ body {
     margin: 0 auto;
 }
 
-.col-md-6 img {
+.pic {
     display: block;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     max-width: 300px;
-    background-color: black;
     border: 4px solid white;
+    z-index:  -1;
 }
+
+
+
+.pic:hover {
+    -webkit-filter: grayscale(100%); /* Safari */
+    filter: grayscale(100%);
+    z-index: 1;
+
+}
+
+.logo h6 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -25px;
+    letter-spacing: 15px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo a:hover {
+    color: green;
+}
+
+.logo a img:hover{
+    opacity: 0.9;
+}
+

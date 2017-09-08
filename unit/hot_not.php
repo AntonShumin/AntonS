@@ -11,28 +11,28 @@
 
     <!-- css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../hot_or_not/public/css/style.css">
 </head>
 <body>
 
     <div class="container">
         <div class="row logo">
             <div class="col-md-12">
-                <img src="content/logo.jpg" alt="">
+                <img src="../hot_or_not/public/img/logo.jpg" alt="">
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
 
                 <a href="hot_not.php">
-                    <img src="content/maxim.jpg" class="pic" alt="pic1">
+                    <img src="../hot_or_not/public/img/maxim.jpg" class="pic" alt="pic1">
                 </a>
 
 
             </div>
             <div class="col-md-6">
                 <a href="hot_not.php">
-                    <img src="content/seeger.jpg" class="pic" alt="pic1">
+                    <img src="../hot_or_not/public/img/seeger.jpg" class="pic" alt="pic1">
                 </a>
 
             </div>
@@ -42,7 +42,7 @@
             <a href="#"><h6>LEADERBOARD</h6>
 
                 <div class="col-md-12">
-                    <img src="content/logo.png" alt="pic2">
+                    <img src="../hot_or_not/public/img/logo.png" alt="pic2">
                 </div>
 
             </a>

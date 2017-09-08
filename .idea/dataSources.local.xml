@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - db_hotnot@localhost" uuid="22eec88b-232f-4b77-bd68-a27c309706cd">
+      <secret-storage>master_key</secret-storage>
+      <user-name>hot_not</user-name>
+      <introspection-scope>db_hotnot:</introspection-scope>
+      <resolve-scope>db_hotnot:</resolve-scope>
+    </data-source>
+  </component>
+</project>

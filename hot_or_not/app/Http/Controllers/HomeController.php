@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Deelnemers as Deelnemers;
+use Response;
 
 class HomeController extends Controller
 {
@@ -19,15 +20,15 @@ class HomeController extends Controller
 
     }
 
-    public function refresh()
+    public function refresh( Request $request)
     {
-
+        $data = "sup";
+        return Response::json(Deelnemers::get_match());
     }
 
 
     public function vote(){
 
-        //Request $request
         //dd(request('hot'));
         Deelnemers::vote(request()->all());
         return redirect()->route('home');

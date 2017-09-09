@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64e3753b-4332-4422-8db6-c9c906784d99" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot_or_not/public/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot_or_not/resources/views/layouts/layout.blade.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hot_or_not/resources/views/welcome.blade.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hot_or_not/app/deelnemers.php" afterPath="$PROJECT_DIR$/hot_or_not/app/Deelnemers.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hot_or_not/public/img/kim.jpg" afterPath="$PROJECT_DIR$/hot_or_not/public/img/candidates/kim.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hot_or_not/public/img/maarten.jpg" afterPath="$PROJECT_DIR$/hot_or_not/public/img/candidates/maarten.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hot_or_not/public/img/maxim.jpg" afterPath="$PROJECT_DIR$/hot_or_not/public/img/candidates/maxim.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hot_or_not/public/img/rias.jpg" afterPath="$PROJECT_DIR$/hot_or_not/public/img/candidates/rias.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hot_or_not/public/img/seeger.jpg" afterPath="$PROJECT_DIR$/hot_or_not/public/img/candidates/seeger.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hot_or_not/public/img/simon.jpg" afterPath="$PROJECT_DIR$/hot_or_not/public/img/candidates/simon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hot_or_not/public/img/thomas.jpg" afterPath="$PROJECT_DIR$/hot_or_not/public/img/candidates/thomas.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hot_or_not/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/hot_or_not/resources/views/home/home.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AntonS.iml" afterPath="$PROJECT_DIR$/.idea/AntonS.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hot_or_not/public/js/jquery-3.2.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hot_or_not/database/migrations/2017_09_08_195654_create_deelnemers_table.php" afterPath="$PROJECT_DIR$/hot_or_not/database/migrations/2017_09_08_195654_create_deelnemers_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hot_or_not/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/hot_or_not/app/Http/Controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hot_or_not/app/deelnemers.php" afterPath="$PROJECT_DIR$/hot_or_not/app/deelnemers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hot_or_not/public/index.php" afterPath="$PROJECT_DIR$/hot_or_not/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hot_or_not/public/js/script.js" afterPath="$PROJECT_DIR$/hot_or_not/public/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hot_or_not/resources/views/layouts/layout.blade.php" afterPath="$PROJECT_DIR$/hot_or_not/resources/views/layouts/layout.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hot_or_not/routes/web.php" afterPath="$PROJECT_DIR$/hot_or_not/routes/web.php" />
     </list>
     <ignored path="AntonS.iws" />
@@ -80,8 +72,8 @@
           <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hot_or_not/resources/views/layouts/layout.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="795">
-                  <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+                <state relative-caret-position="495">
+                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -90,8 +82,18 @@
           <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hot_or_not/public/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+                <state relative-caret-position="600">
+                  <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/hot_or_not/public/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -100,24 +102,9 @@
           <file leaf-file-name="Deelnemers.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hot_or_not/app/Deelnemers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="737">
+                <state relative-caret-position="751">
                   <caret line="91" column="68" selection-start-line="91" selection-start-column="68" selection-end-line="91" selection-end-column="68" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="db_hotnot.deelnemers" pinned="false" current-in-tab="false">
-            <entry file="dbDummy://dbtable:/848747de/22eec88b-232f-4b77-bd68-a27c309706cd/db_hotnot.deelnemers">
-              <provider editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-                <state>
-                  <filtering enabled="true" />
                 </state>
               </provider>
             </entry>
@@ -139,18 +126,18 @@
           <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hot_or_not/routes/web.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+                <state relative-caret-position="120">
+                  <caret line="17" column="21" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hot_or_not/app/Http/Controllers/HomeController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+                <state relative-caret-position="375">
+                  <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
                   <folding>
                     <element signature="e#40#68#0#PHP" expanded="true" />
                   </folding>
@@ -158,13 +145,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/hot_or_not/resources/views/home/home.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                <state relative-caret-position="195">
+                  <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="38" />
                   <folding>
-                    <marker date="1504992268016" expanded="true" signature="879:880" ph="..." />
+                    <marker date="1504995640796" expanded="true" signature="879:880" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -181,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/inc/css/jquery.bxslider.min.css" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/index-2.php" />
         <option value="$PROJECT_DIR$/inc/css/navigation-style-2.css" />
@@ -226,12 +212,13 @@
         <option value="$PROJECT_DIR$/hot_or_not/app/deelnemers.php" />
         <option value="$PROJECT_DIR$/hot_or_not/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/hot_or_not/database/migrations/2017_09_08_195654_create_deelnemers_table.php" />
-        <option value="$PROJECT_DIR$/hot_or_not/routes/web.php" />
-        <option value="$PROJECT_DIR$/hot_or_not/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/hot_or_not/app/Deelnemers.php" />
+        <option value="$PROJECT_DIR$/hot_or_not/routes/web.php" />
         <option value="$PROJECT_DIR$/hot_or_not/resources/views/layouts/layout.blade.php" />
-        <option value="$PROJECT_DIR$/hot_or_not/public/js/script.js" />
         <option value="$PROJECT_DIR$/hot_or_not/resources/views/home/home.blade.php" />
+        <option value="$PROJECT_DIR$/hot_or_not/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/hot_or_not/public/index.php" />
+        <option value="$PROJECT_DIR$/hot_or_not/public/js/script.js" />
       </list>
     </option>
   </component>
@@ -441,58 +428,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AntonS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AntonS" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hot_or_not" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AntonS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AntonS" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hot_or_not" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -548,28 +483,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AntonS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AntonS" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hot_or_not" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -589,11 +502,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\AntonS\hot_or_not\public\js" />
       <recent name="C:\wamp64\www\AntonS\hot_or_not\public\img\candidates" />
       <recent name="C:\wamp64\www\AntonS\hot_or_not\resources\views\home" />
       <recent name="C:\wamp64\www\AntonS\hot_or_not\public\img" />
       <recent name="C:\wamp64\www\AntonS\hot_or_not\public\css" />
-      <recent name="C:\wamp64\www\AntonS\inc" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\AntonS\unit\content" />
@@ -689,12 +602,12 @@
       <workItem from="1504769526878" duration="7306000" />
       <workItem from="1504802560290" duration="2995000" />
       <workItem from="1504862959939" duration="19304000" />
-      <workItem from="1504945864323" duration="28086000" />
+      <workItem from="1504945864323" duration="33229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186515000" />
+    <option name="totallyTimeSpent" value="191658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="2379" height="1407" extended-state="0" />
@@ -704,6 +617,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09918068" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18131869" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -714,7 +628,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -737,13 +650,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/landon_app/resources/views/client/modify.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/landon_app/resources/views/client/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1044,32 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unit/hot_not.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hot_or_not/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hot_or_not/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/848747de/22eec88b-232f-4b77-bd68-a27c309706cd/db_hotnot.deelnemers">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1083,36 +963,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hot_or_not/app/Deelnemers.php">
+    <entry file="file://$PROJECT_DIR$/unit/hot_not.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="91" column="68" selection-start-line="91" selection-start-column="68" selection-end-line="91" selection-end-column="68" />
+        <state relative-caret-position="195">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hot_or_not/resources/views/layouts/layout.blade.php">
+    <entry file="file://$PROJECT_DIR$/hot_or_not/app/Deelnemers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="751">
+          <caret line="91" column="68" selection-start-line="91" selection-start-column="68" selection-end-line="91" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hot_or_not/resources/views/home/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="38" />
           <folding>
-            <marker date="1504992268016" expanded="true" signature="879:880" ph="..." />
+            <marker date="1504995640796" expanded="true" signature="879:880" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hot_or_not/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hot_or_not/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hot_or_not/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hot_or_not/resources/views/layouts/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hot_or_not/public/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        <state relative-caret-position="600">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
           <folding />
         </state>
       </provider>

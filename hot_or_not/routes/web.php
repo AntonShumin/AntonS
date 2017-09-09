@@ -15,8 +15,7 @@ Route::get('/','HomeController@index')->name('home');
 Route::post('/','HomeController@vote');
 
 //ajax
-Route::get('/test','HomeController@refresh');
-Route::post('/test','HomeController@refresh');
+Route::post('/refresh','HomeController@refresh');
 
 /*
 Route::get('/', function () {

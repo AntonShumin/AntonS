@@ -11,9 +11,17 @@
 |
 */
 
+Route::get('/','HomeController@index')->name('home');
+Route::post('/','HomeController@vote');
+
+//ajax
+Route::get('/test','HomeController@refresh');
+Route::post('/test','HomeController@refresh');
+
+/*
 Route::get('/', function () {
     return view('home');
-});
+
 
 Route::get('/deelnemers/{id}', function ($id) {
 
@@ -25,3 +33,6 @@ Route::get('/deelnemers/{id}', function ($id) {
     return $deelnemer;
 
 });
+
+});
+*/

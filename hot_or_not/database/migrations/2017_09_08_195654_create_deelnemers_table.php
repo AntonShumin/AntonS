@@ -17,8 +17,8 @@ class CreateDeelnemersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('filename');
-            $table->integer('hot');
-            $table->integer('not');
+            $table->integer('hot')->default(0);
+            $table->integer('not')->default(0);
             $table->timestamps();
         });
     }

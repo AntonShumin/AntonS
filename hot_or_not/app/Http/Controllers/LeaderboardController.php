@@ -16,6 +16,16 @@ class LeaderboardController extends Controller
         return view("leaderboard.leaderboard", $data);
     }
 
+    public function get_by_id($id)
+    {
+
+        $id = (int)$id;
+        $data = [
+            "deelnemers" => Deelnemers::get_leaderboard("id = $id")
+        ];
+        return view("leaderboard.leaderboard",$data);
+    }
+
     public function add()
     {
         return view("leaderboard.add");
@@ -23,15 +33,23 @@ class LeaderboardController extends Controller
 
     public function upload()
     {
-        if(Input::hasFile('file')){
+        if (Input::hasFile('file')) {
 
-            $file = Input::file('file');
-            $file_name = Input::get('name') ."_" . microtime() . "_" . $file->getClientOriginalName();
-            $file->move( 'img/candidates', $file_name);
-            echo "<img src='/img/candidates/$file_name'>";
+            try {
+
+                $file = Input::file('file');
+                $name = Input::get('name');
+                $index = Deelnemers::upload_picture($file, $name);
+                return $this->get_by_id($index);
+
+            } catch (\Exception $e) {
+
+                route('add');
+
+            }
 
         } else {
-            echo "no file";
+            echo route('add');
         }
 
     }

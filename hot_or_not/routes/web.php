@@ -19,5 +19,6 @@ Route::post('/refresh', 'HomeController@refresh');
 
 //LEADERBOARD
 Route::get('/leaderboard', 'LeaderboardController@index')->name('leaderboard');
+Route::get('/leaderboard/add/{id}', 'LeaderboardController@get_by_id');
 Route::get('/leaderboard/add', 'LeaderboardController@add')->name('add');
 Route::post('/leaderboard/add', 'LeaderboardController@upload');

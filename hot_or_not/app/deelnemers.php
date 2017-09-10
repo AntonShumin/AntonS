@@ -3,12 +3,15 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Imagecow\Image;
 use DB;
+
 
 class Deelnemers extends Model
 {
 
     protected $fillable = array('name', 'filename'); //tegen de mass assignment exception https://laravel.com/docs/4.2/eloquent#mass-assignment
+    public $test;
 
     //
     public static function get_match()
@@ -98,7 +101,7 @@ class Deelnemers extends Model
 
     public static function get_diagonal_index($max_combinaties)
     {
-        //app('session')->forget('index');
+
         $index = app('session')->get('index', rand(0, $max_combinaties));
         $index++;
         if ($index > $max_combinaties) $index = 1;
@@ -112,13 +115,43 @@ class Deelnemers extends Model
 
     }
 
-    public static function get_leaderboard()
+    public static function get_leaderboard($condition = "id > 0")
     {
 
         //division by 0 fix met GREATEST(). Het werkte goed op localhost zonder, maar wie weet
         return Deelnemers::selectRaw((
         '*, deelnemers.hot/(GREATEST(deelnemers.hot+deelnemers.not, 1)) * 100 as sum'
-        ))->orderby('sum', 'DESC')->get();
+        ))->whereRaw($condition)->orderby('sum', 'DESC')->get();
+
+    }
+
+    public static function upload_picture($file, $name)
+    {
+
+        //set vars
+        $name = ucfirst($name);
+        $file_name = $name . "_" . microtime() . '.jpg';
+
+        //crop and save image
+        Image::fromFile($file)
+            ->resizeCrop(500, 500, 'center', 'middle')
+            ->format('jpg')
+            ->save("img/candidates/$file_name");
+
+        //reset db index
+        DB::statement('ALTER TABLE deelnemers AUTO_INCREMENT = 1');
+
+        //create deelnemer
+        $index = Deelnemers::create([
+            'name' => $name,
+            'filename' => $file_name
+        ])->id;
+
+        //clear session
+        app('session')->forget('index');
+
+        //return
+        return $index;
 
     }
 

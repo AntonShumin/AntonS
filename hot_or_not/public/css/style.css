@@ -20,7 +20,7 @@ body {
 
 }
 
-.col-md-6 {
+#comparison .col-md-6 {
     background-color: #f7f7f7;
     z-index: 0;
 }
@@ -82,6 +82,15 @@ table img {
 
 td {
     vertical-align: middle  !important;
+}
+
+#leaderboards .col-md-6  {
+    margin: auto;
+}
+
+#leaderboards .col-md-6  a {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 

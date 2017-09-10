@@ -28,7 +28,7 @@
     <div class="row logo">
 
 
-        <div class="col-md-12">
+        <div class="col-md-12 unit">
             <img src="{{ asset('img/logo.png') }}" alt="unit logo">
         </div>
 

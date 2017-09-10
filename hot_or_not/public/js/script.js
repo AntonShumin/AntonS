@@ -10,25 +10,33 @@ $(function () {
 
         e.preventDefault();
 
-        var id_hot = 1;
-        var id_not = 2;
+        var id_hot = $("input[name='hot']", this).val();
+        var id_not = $("input[name='not']", this).val();
 
         $.ajax({
             type: 'POST',
             url: '/refresh',
-            data: '',
-            /*dataType: 'json',*/
+            data: {hot: id_hot, not: id_not},
+            dataType: 'json',
             success: function (data) {
 
-                if(data) {
+                if (data) {
 
                     //$('body').html(data[0]['id'] );
-                    console.log(data);
+                    console.log(data[0]);
+
+                    $('.col-md-6').each(function ( index ) {
+                        $("input[name='hot']", this).val( data[index]['id'] );
+                        $("input[name='not']", this).val( data[index]['oponent_id'] );
+                        $('img',this).attr('src','img/candidates/'+data[index]['filename']);
+                        $('img',this).attr('alt', data[index]['name']);
+
+                    });
 
                 }
 
             },
-            error: function(XMLHttpRequest, textStatus, errorThrown) {
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
                 console.log("Status: " + textStatus);
                 console.log("Error: " + errorThrown);
             }

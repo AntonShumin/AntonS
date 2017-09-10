@@ -27,10 +27,10 @@
 
     </div>
 
-    <div class="row">
+    <div class="row link">
         <div class="col-md-12">
 
-            <a href="#"><h6>LEADERBOARD</h6></a>
+            <a href="{{route('leaderboard')}}"><h6>LEADERBOARD</h6></a>
 
         </div>
 

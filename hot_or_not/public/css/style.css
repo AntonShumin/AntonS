@@ -72,3 +72,18 @@ body {
     opacity: 0.9;
 }
 
+
+
+/* Leaderboard */
+
+table img {
+    max-width: 100px;
+}
+
+td {
+    vertical-align: middle  !important;
+}
+
+table {
+    overflow: hidden;
+}

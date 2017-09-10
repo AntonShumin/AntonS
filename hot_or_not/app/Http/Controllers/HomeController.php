@@ -22,7 +22,11 @@ class HomeController extends Controller
 
     public function refresh( Request $request)
     {
-        $data = "sup";
+        $data = [
+            "hot" => $request->input('hot'),
+            'not' => $request->input('not')
+        ];
+        Deelnemers::vote($data);
         return Response::json(Deelnemers::get_match());
     }
 

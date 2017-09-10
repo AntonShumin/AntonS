@@ -11,27 +11,11 @@
 |
 */
 
+//HOME
 Route::get('/','HomeController@index')->name('home');
 Route::post('/','HomeController@vote');
-
 //ajax
 Route::post('/refresh','HomeController@refresh');
 
-/*
-Route::get('/', function () {
-    return view('home');
-
-
-Route::get('/deelnemers/{id}', function ($id) {
-
-    //$deelnemer = DB::table('deelnemers')->latest()->get();
-    $deelnemer = DB::table('deelnemers')->find($id);
-
-    dd($deelnemer);
-
-    return $deelnemer;
-
-});
-
-});
-*/
+//LEADERBOARD
+Route::get('/leaderboard','LeaderboardController@index')->name('leaderboard');

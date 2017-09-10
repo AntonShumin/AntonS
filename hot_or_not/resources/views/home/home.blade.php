@@ -3,6 +3,8 @@
 
 @section('content')
 
+
+
     <div id="comparison" class="row">
 
         @foreach($deelnemers as $deelnemer)

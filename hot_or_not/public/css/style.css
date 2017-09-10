@@ -9,6 +9,7 @@ body {
     margin-top: 60px;
     background: white;
     min-height: 100%;
+    margin-bottom: 50px;
 }
 
 .col-md-12 {
@@ -86,6 +87,23 @@ body {
     outline: none;
 }
 
+.popup {
+    white-space: nowrap;
+    overflow: hidden;
+    color: RED;
+    font-weight: bold;
+    position: absolute;
+    z-index: 100;
+    font-weight: 900;
+    font-size: 40px;
+    opacity: 0;
+    overflow: hidden;
+
+    pointer-events: none;
+
+    display: none;
+}
+
 /* Leaderboard */
 
 table img {
@@ -122,4 +140,5 @@ td {
     margin: auto;
     padding-bottom: 30px;
 }
+
 

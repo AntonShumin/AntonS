@@ -87,3 +87,22 @@ td {
 table {
     overflow: hidden;
 }
+
+
+/* upload */
+#upload {
+    text-align: center;
+    background-color: #F7F7F7;
+}
+
+#upload input {
+
+    margin: 5px;
+    text-align: center;
+}
+
+#upload .col-md-6 {
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+}

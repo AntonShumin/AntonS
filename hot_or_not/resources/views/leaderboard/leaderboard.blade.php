@@ -2,6 +2,9 @@
 
 @section('content')
 
+    <div class="row">
+        <a href={{ route('add') }} class="btn btn-info" role="button">Link Button</a>
+    </div>
 
     <table class="table table-responsive">
         <thread>
@@ -20,7 +23,7 @@
                     <td>{{ $index + 1  }}</td>
                     <td><img src="{{ 'img/candidates/' . $deelnemer->filename }}" alt=""></td>
                     <td>{{ $deelnemer->name }}</td>
-                    <td>{{ round( $deelnemer->hot / ($deelnemer->hot + $deelnemer->not) * 100 ) . "%"  }}</td>
+                    <td>{{ round( $deelnemer->sum ) . "%"  }}</td>
                     <td>{{ $deelnemer->hot }}</td>
                     <td>{{ $deelnemer->not }}</td>
                 </tr>

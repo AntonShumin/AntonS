@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use DB;
 
 class Deelnemers extends Model
 {
@@ -98,16 +99,26 @@ class Deelnemers extends Model
     public static function get_diagonal_index($max_combinaties)
     {
         //app('session')->forget('index');
-        $index = app('session')->get('index', rand(0,$max_combinaties));
+        $index = app('session')->get('index', rand(0, $max_combinaties));
         $index++;
-        if($index > $max_combinaties) $index = 1;
-        app('session')->put( ['index' => $index] );
+        if ($index > $max_combinaties) $index = 1;
+        app('session')->put(['index' => $index]);
 
         //app('session')->save();
         //dd($index);
 
         //return
         return $index;
+
+    }
+
+    public static function get_leaderboard()
+    {
+
+        //division by 0 fix met GREATEST(). Het werkte goed op localhost zonder, maar wie weet
+        return Deelnemers::selectRaw((
+        '*, deelnemers.hot/(GREATEST(deelnemers.hot+deelnemers.not, 1)) * 100 as sum'
+        ))->orderby('sum', 'DESC')->get();
 
     }
 

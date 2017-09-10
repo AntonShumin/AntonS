@@ -14,6 +14,7 @@ $(function () {
         var id_hot = $("input[name='hot']", this).val();
         var id_not = $("input[name='not']", this).val();
         popup($(this));
+        blur();
 
         $.ajax({
             type: 'POST',
@@ -77,15 +78,28 @@ $(function () {
                         opacity: 0,
                         fontSize: "0px",
                         top: "0px",
-                        left: $( window ).width() / 2
+                        left: $(window).width() / 2
 
-                    }, 300, function () {
-
-                    }
+                    }, 300
                 );
             }
         );
 
+    }
+
+    function blur() {
+
+        $('#comparison img').stop();
+        $('#comparison img').css({opacity: 0});
+
+        $('#comparison img').animate({
+
+            opacity: 1,
+            "-webkit-filter": "blur(0)",
+            "filter": "blur(0)"
+
+            }, 3500
+        );
 
     }
 

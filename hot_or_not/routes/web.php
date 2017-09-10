@@ -12,12 +12,12 @@
 */
 
 //HOME
-Route::get('/','HomeController@index')->name('home');
-Route::post('/','HomeController@vote');
+Route::get('/', 'HomeController@index')->name('home');
+Route::post('/', 'HomeController@vote');
 //ajax
-Route::post('/refresh','HomeController@refresh');
+Route::post('/refresh', 'HomeController@refresh');
 
 //LEADERBOARD
-Route::get('/leaderboard','LeaderboardController@index')->name('leaderboard');
-Route::get('/leaderboard/add','LeaderboardController@add')->name('add');
-Route::post('/leaderboard/add',function () { echo 'hello'; } );
+Route::get('/leaderboard', 'LeaderboardController@index')->name('leaderboard');
+Route::get('/leaderboard/add', 'LeaderboardController@add')->name('add');
+Route::post('/leaderboard/add', 'LeaderboardController@upload');

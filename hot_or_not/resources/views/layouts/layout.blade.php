@@ -19,7 +19,7 @@
 <div class="container">
     <div class="row logo">
         <div class="col-md-12">
-            <img src="{{ asset('img/logo.jpg') }}" alt="hot or not">
+            <a href="/"><img src="{{ asset('img/logo.jpg') }}" alt="hot or not"></a>
         </div>
     </div>
 

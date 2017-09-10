@@ -13,8 +13,8 @@
             <div class="col-md-6">
 
                 {{ csrf_field() }}
-                <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon2">
-                <input type="file" class="form-control" name="file" id="file">
+                <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon2" required maxlength="10">
+                <input type="file" class="form-control btn-file" name="file" id="file" accept="image/jpeg" required>
                 <input type="submit" class="form-control" value="Upload" name="submit">
 
             </div>

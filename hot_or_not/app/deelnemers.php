@@ -146,12 +146,19 @@ class Deelnemers extends Model
             'name' => $name,
             'filename' => $file_name
         ])->id;
+        /* ook mogelijk
+        $deelnemer = new Deelnemers();
+        $deelnemer->insert(['name' => 'iets']);
+        */
 
         //clear session
         app('session')->forget('index');
 
         //return
         return $index;
+
+    }
+    public function test(){
 
     }
 

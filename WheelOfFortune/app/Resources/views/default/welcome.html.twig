@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    {% if logged %}
+        <a href="{{ path('form') }}">Roll the wheel</a>
+    {% else %}
+        <a href="{{ path('form') }}">Register</a>
+    {% endif %}
+
+{% endblock %}

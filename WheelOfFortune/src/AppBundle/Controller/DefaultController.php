@@ -11,21 +11,12 @@ use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\Form\Extension\Core\Type\NumberType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\Validator\Constraints\Length;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller
 {
-    /**
-     * @Route("/",name="index")
-     */
-    public function index()
-    {
-
-
-        return $this->render('default/welcome.html.twig', ['logged' => false]);
-
-    }
 
     /**
      * @param Request $request
@@ -34,39 +25,41 @@ class DefaultController extends Controller
      */
     public function registratie(Request $request)
     {
-        exit(var_dump($_GET));
 
+        //build a form
         $form = $this->createFormBuilder()
             ->add('voornaam', TextType::class)
             ->add('naam', TextType::class)
-            ->add('mail', EmailType::class)
+            ->add('email', EmailType::class)
             ->add('straat', TextType::class)
             ->add('post', TextType::class)
-            ->add('gsm', NumberType::class)
+            ->add('gsm', NumberType::class, array(
+                'constraints' => new Length(array('min' => 8, 'max' => 10)),
+            ))
             ->add('save', SubmitType::class, array('label' => 'Submit'))
             ->getForm();
+
+        //handle request
         $form->handleRequest($request);
 
+        //submit form
         if ($form->isSubmitted() && $form->isValid()) {
 
-            var_dump($form->getData());
-            return $this->render('default/welcome.html.twig', ['logged' => "tes"]);
+            $conn = $this->get('database_connection');
+            Users::save($conn, $form->getData());
 
         }
 
-
+        //return
         return $this->render('default/form.html.twig', array(
             'form' => $form->createView(),
         ));
-        // return $this->json(["sup" => "bro"]);
-
 
     }
 
     /**
-     * @param Request $request
-     * @return \Symfony\Component\HttpFoundation\Response
      * @Route("/wheel/{id_deelnemer}",name="wheel")
+     * @return JsonResponse
      */
     public function turnWheel(Request $request, $id_deelnemer)
     {
@@ -80,7 +73,7 @@ class DefaultController extends Controller
         $data = $user;
 
         //if user can play
-        if ( $user['result'] == 'valid' ) {
+        if ($user['result'] == 'valid') {
 
             //spin the wheel
             $wheel = new Wheel();
@@ -90,11 +83,11 @@ class DefaultController extends Controller
             $data['reward'] = 'Helaas, u hebt niets gewonnen';
 
             //if won
-            if( $wheel_chance > 0 ) {
+            if ($wheel_chance > 0) {
 
                 //check rewards remaining
-                $availability = $wheel->check_availability($conn,$wheel_chance);
-                if (  $availability != 0 ) {
+                $availability = $wheel->check_availability($conn, $wheel_chance);
+                if ($availability != 0) {
 
                     $data['reward'] = "Proficiat: uw prijs is $availability";
 
@@ -104,8 +97,8 @@ class DefaultController extends Controller
 
         }
 
-
         return $this->json($data);
+
     }
 
 

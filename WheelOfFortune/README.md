@@ -1,72 +1,103 @@
-Symfony Standard Edition
-========================
+Wheel of fortune
+================
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony
-application that you can use as the skeleton for your new applications.
+Wheel of fortune is ene kleine symfony applicaite waarbij de spelers een kans maken op een reeks prachtige prijzen. 
 
-For details on how to download and get started with Symfony, see the
-[Installation][1] chapter of the Symfony Documentation.
 
-What's inside?
---------------
 
-The Symfony Standard Edition is configured with the following defaults:
+Installatie 
+-----------
 
-  * An AppBundle you can use to start coding;
+* importeer mySQL bestand db_wheel.sql in uw database (te vinden in de root van het project)
 
-  * Twig as the only configured template engine;
+* app/config/parameters.yml verwacht de volgenden db instellingen
 
-  * Doctrine ORM/DBAL;
+        database_host: localhost
+        database_port: null
+        database_name: db_wheel
+        database_user: user
+        database_password: pass
 
-  * Swiftmailer;
 
-  * Annotations enabled for everything.
+* navigeren naar de directory 
 
-It comes pre-configured with the following bundles:
+        cd WheelOfFortune
 
-  * **FrameworkBundle** - The core Symfony framework bundle
+* dependencies installeren
 
-  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
-    template and routing annotation capability
+        composer install
 
-  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
+* server deploy'en op localhost 
 
-  * [**TwigBundle**][8] - Adds support for the Twig templating engine
+        php bin/console server:run
 
-  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
-    component
 
-  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
-    sending emails
+Inhoud
+------
 
-  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
+ * models 
 
-  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
-    the web debug toolbar
+        1. Entity/Users
+        2. Entity/Wheel
+    
+ * controllers
+ 
+        1. Controller/Default
+        
+ * views
+ 
+        1. default/form
+        
+Database
+--------
 
-  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
-    configuring and working with Symfony distributions
+Er zijn 2 tabellen
 
-  * [**SensioGeneratorBundle**][13] (in dev env) - Adds code generation
-    capabilities
+        reward
+        users
+        
+`reward` bevat alle mogelijke prijzen + voorraad
 
-  * [**WebServerBundle**][14] (in dev env) - Adds commands for running applications
-    using the PHP built-in web server
+`users` bevast persoonsgegevens van geregistreerde gebruikers + een teller van aantal speelpogingen (max 1) 
 
-  * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
-    integration
+Beschrijving
+------------
 
-All libraries and bundles included in the Symfony Standard Edition are
-released under the MIT or BSD license.
+**Endpoint 2 - Wheel of fortune**
 
-Enjoy!
+        DefaultController
+        type request: get
+        @Route("/wheel/{id_deelnemer}
+        functie turnWheel
+        @return JsonResponse  
 
-[1]:  https://symfony.com/doc/3.3/setup.html
-[6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
-[7]:  https://symfony.com/doc/3.3/doctrine.html
-[8]:  https://symfony.com/doc/3.3/templating.html
-[9]:  https://symfony.com/doc/3.3/security.html
-[10]: https://symfony.com/doc/3.3/email.html
-[11]: https://symfony.com/doc/3.3/logging.html
-[13]: https://symfony.com/doc/current/bundles/SensioGeneratorBundle/index.html
-[14]: https://symfony.com/doc/current/setup/built_in_web_server.html
+vb. json return
+
+        {
+        "result": "valid",
+        "reward": "Proficiat: uw prijs is 10 euro voucher"
+        }
+
+De functie `turnWheel` krijgt de id van de gebruiker (mogelijk om uit te breiden naar de hashed id), controlleert of de gebruiker bestaat in de database en nog niet gestemd heeft. 
+
+Vervolgens wordt de functie `Wheel/turn_wheel` aangeroepen met als resultaat een getal tussen 0 en 4. 0 = niets gewonnen, 1-3 komt overeen met de rewards in de database. 
+
+De functie `Wheel/check_availability` controlleert de voorraad van de vouchers en genereert een gepaste bericht, indien men gewonnen heeft. Het verlaagt de teller in eens met 1 eenheid.
+
+
+
+**Endpoint 1 - registratie** 
+
+Ik ben er niet in geslaagd om tijdig 'request' validate te doorgroden. Vandaar deze tussentijdse oplossingen. 
+Momenteel is er geen validatie tegen duplicaten
+
+Men kan een simpele post formulier invullen op het adres:
+
+        DefaultController
+        @Route("/form")
+        functie registratie
+        @return form.html.twig
+
+FormBuilder genereert een formulier. Indien het 'gesubmit' en gevalideerd is, opslaan in de database. 
+
+

@@ -54,4 +54,22 @@ class Users
     }
 
 
+    public static function save($conn,$array) {
+
+        $keys = implode(',',array_keys($array)) ;
+        $values = "'" . implode("','",array_values($array)) . "'";
+
+        //validate for the duplicates
+        //exit ( var_dump("INSERT INTO users ($keys) VALUES ($values)"));
+
+        $sql = "INSERT INTO users ($keys) VALUES ($values)";
+        $stmt = $conn->prepare($sql);
+        //$stmt->bindValue(":keys", $keys);
+        //$stmt->bindValue(":val", $values);
+        $stmt->execute();
+
+
+    }
+
+
 }

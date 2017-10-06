@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64e3753b-4332-4422-8db6-c9c906784d99" name="Default" comment="Parsing matrix">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/uni-partners/1 curl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/uni-partners/2 gb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/uni-partners/3 form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/uni-partners/4 configuration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/uni-partners/5 Debugging.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/uni-partners/6 objects.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/uni-partners/7 mySQL_integration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/uni-partners/8 cookies and sessions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/uni-partners/9 query.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/uni-partners/4 configuration.php" afterPath="$PROJECT_DIR$/demo/uni-partners/4 configuration.php" />
     </list>
     <list id="0ca465e2-792f-42d9-b1ea-05d27bd79561" name="Failed commit: Default" comment="rotate left, wo db call" />
     <ignored path="AntonS.iws" />
@@ -47,19 +49,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tut.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/tut.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GenusController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/aqua_note/src/AppBundle/Controller/GenusController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,14 +65,14 @@
       <file leaf-file-name="1 curl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/uni-partners/1 curl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="877">
+            <state relative-caret-position="1455">
               <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2 gb.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2 gb.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/uni-partners/2 gb.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -96,7 +85,7 @@
       <file leaf-file-name="3 form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/uni-partners/3 form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="877">
+            <state relative-caret-position="1005">
               <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <marker date="1507230044763" expanded="true" signature="847:1005" ph="INSERT INTO movieformdata... " />
@@ -108,8 +97,63 @@
       <file leaf-file-name="4 configuration.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/uni-partners/4 configuration.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="645">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5 Debugging.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/uni-partners/5 Debugging.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6 objects.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/uni-partners/6 objects.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7 mySQL_integration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/uni-partners/7 mySQL_integration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="892">
+              <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+              <folding>
+                <marker date="1507286903570" expanded="true" signature="1359:1432" ph="SELECT actor... actor" />
+                <marker date="1507286903570" expanded="true" signature="2139:2161" ph="SELECT name users" />
+                <marker date="1507286903570" expanded="true" signature="2253:2301" ph="SELECT * FRO... users" />
+                <marker date="1507286903570" expanded="true" signature="2393:2452" ph="SELECT * FRO... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8 cookies and sessions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/uni-partners/8 cookies and sessions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9 query.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/uni-partners/9 query.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -124,11 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hot_or_not/app/deelnemers.php" />
-        <option value="$PROJECT_DIR$/hot_or_not/resources/views/home.blade.php" />
-        <option value="$PROJECT_DIR$/hot_or_not/database/migrations/2017_09_08_195654_create_deelnemers_table.php" />
-        <option value="$PROJECT_DIR$/hot_or_not/public/index.php" />
-        <option value="$PROJECT_DIR$/hot_or_not/config/session.php" />
         <option value="$PROJECT_DIR$/hot_or_not/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/hot_or_not/resources/views/leaderboard/add.blade.php" />
         <option value="$PROJECT_DIR$/hot_or_not/composer.json" />
@@ -175,6 +214,11 @@
         <option value="$PROJECT_DIR$/demo/uni-partners/2 gb.php" />
         <option value="$PROJECT_DIR$/demo/uni-partners/3 form.php" />
         <option value="$PROJECT_DIR$/demo/uni-partners/4 configuration.php" />
+        <option value="$PROJECT_DIR$/demo/uni-partners/5 Debugging.php" />
+        <option value="$PROJECT_DIR$/demo/uni-partners/6 objects.php" />
+        <option value="$PROJECT_DIR$/demo/uni-partners/7 mySQL_integration.php" />
+        <option value="$PROJECT_DIR$/demo/uni-partners/8 cookies and sessions.php" />
+        <option value="$PROJECT_DIR$/demo/uni-partners/9 query.php" />
       </list>
     </option>
   </component>
@@ -190,7 +234,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="2062" />
+    <option name="width" value="2107" />
     <option name="height" value="1407" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -258,6 +302,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,7 +355,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -318,7 +362,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../salino" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;MySQL" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
@@ -446,7 +490,8 @@
       <workItem from="1507026772044" duration="1461000" />
       <workItem from="1507131845585" duration="610000" />
       <workItem from="1507206066862" duration="1306000" />
-      <workItem from="1507220867156" duration="6368000" />
+      <workItem from="1507220867156" duration="6431000" />
+      <workItem from="1507279991233" duration="6921000" />
     </task>
     <task id="LOCAL-00001" summary="rotate left, wo db call">
       <created>1505830073175</created>
@@ -459,7 +504,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340609000" />
+    <option name="totallyTimeSpent" value="347593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,13 +516,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="2062" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="2107" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23576424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23302394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0959041" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0937958" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20015699" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -515,35 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hot_or_not/app/Deelnemers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2190">
-          <caret line="148" column="23" selection-start-line="148" selection-start-column="23" selection-end-line="148" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hot_or_not/tests/Unit/ExampleTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/lynda/PHPUnit/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/GoldenPalace/php-test/README.md" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a84a7f69-3232-484a-943b-1e99272696fd/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/848747de/a84a7f69-3232-484a-943b-1e99272696fd/results" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/421b6092-cb5b-412b-bc5e-e37aad0f8d0c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -758,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/uni-partners/3 form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="877">
+        <state relative-caret-position="1005">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <marker date="1507230044763" expanded="true" signature="847:1005" ph="INSERT INTO movieformdata... " />
@@ -766,17 +782,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/uni-partners/4 configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/uni-partners/1 curl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="877">
+        <state relative-caret-position="1455">
           <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding />
         </state>
@@ -786,6 +794,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/uni-partners/4 configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/uni-partners/5 Debugging.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/uni-partners/6 objects.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/uni-partners/7 mySQL_integration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="892">
+          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
+          <folding>
+            <marker date="1507286903570" expanded="true" signature="1359:1432" ph="SELECT actor... actor" />
+            <marker date="1507286903570" expanded="true" signature="2139:2161" ph="SELECT name users" />
+            <marker date="1507286903570" expanded="true" signature="2253:2301" ph="SELECT * FRO... users" />
+            <marker date="1507286903570" expanded="true" signature="2393:2452" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/uni-partners/8 cookies and sessions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/uni-partners/9 query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding />
         </state>
       </provider>
